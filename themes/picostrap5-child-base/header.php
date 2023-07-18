@@ -33,8 +33,7 @@ defined( 'ABSPATH' ) || exit;
 			</div>
 		</div>
 		<?php endif; ?>
-		
-		<h1>HELLO</h1>
+
 
 		<!-- ******************* The Navbar Area ******************* -->
 		<header id="wrapper-navbar" class="sticky-top" itemscope itemtype="http://schema.org/WebSite">
