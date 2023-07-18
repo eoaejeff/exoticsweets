@@ -1,0 +1,12 @@
+@import "theme_variables"; 
+@import "bootstrap5/bootstrap";
+@import "wp_basic_styles";  //from parent theme by default  
+@import "picostrap"; //from parent theme by default  
+@import "woocommerce";  //from parent theme by default       
+//@import "debug-structure-helper"; // UNCOMMENT TO DEBUG YOUR PAGE: This code helps debugging your page, hightlighting main <section>s, bootstrap containers, rows, columns and .lc-block elements.     
+@import "custom";  //put in this file your masterpiece
+
+
+  
+//A DEMO STATEMENT for testing      
+//body {background:lime;  }  

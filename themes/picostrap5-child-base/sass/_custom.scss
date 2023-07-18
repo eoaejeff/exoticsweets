@@ -1,0 +1,174 @@
+/* ============ ADD HERE YOUR CUSTOM SCSS or  plain CSS CODE. ============ 
+
+HOW DOES IT WORK?
+
+    Edit this file, save, 
+    view page as admin:
+    The style will be AUTOMATICALLY recompiled and 
+    your new CSS bundle will be reloaded via ajax to show 
+    the new styling edits.
+
+NOTICE for beginners: 
+
+    CODE HERE YOUR MASTERPIECE, but before that, if you haven't yet,
+    please take your time to understand and study how Bootstrap works.
+    It can save you a lot of time,
+    eg. to standardize project colors, or fully customize typography.
+    First of all, have a ride in the WordPress Customizer.
+    Then learn to use Bootstrap 5 Classes and utilities.
+    If you come from the CSS world, take some time to study the basic of SASS. It's very powerful.
+    With great powers...you are warned 
+
+
+IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
+    Please access those prepending ../ in the path, as the rendered CSS
+    that is executed from the browser is in the /css-output/ theme subfolder    
+
+
+************************************************		*/
+//a demo statement - uncomment to see page turn red and blush
+//body { background: red; opacity: 0.4;border:5px solid yellow}  
+
+//open menus on hover
+//.dropdown:hover>.dropdown-menu { display: block;}
+  
+
+//PAGE HAS SCROLLED: From the Customizer, enable the "Scroll Detection" feature to be able to use the classes:
+
+//body.scroll-position-at-top  {background:lime}
+//body.scroll-position-not-at-top {background:red}
+
+ 
+//HOW TO INCLUDE A CUSTOM FONT
+//1. Upload the .woff2 font file in the /fonts/ folder 
+//2. Adjust and use the code snippet below
+//3. Open the Customizer and declare the font in the "Font Family Base" / "Headings Font Family" field
+
+//include custom font
+//@font-face {
+//  font-family: 'Playfair Display';
+//  src: url('../fonts/playfair-display.woff2') format('woff2');
+//}
+ 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* BUTTON STYLE OVERRIDES */
+
+.btn-primary,
+.btn-secondary,
+.btn-info {
+    color:$white;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-info:hover {
+    color:$white;
+}
+
+
+/* GRADIENT BACKGROUNDS */
+
+.bg-gradient-primary {
+    background: rgb(0,170,255);
+    background: linear-gradient(45deg, $primary 0%, $info 100%);
+}
+.bg-gradient-secondary {
+    background: $secondary;
+    background: linear-gradient(45deg, $secondary 0%, $primary 100%);
+}
+.bg-gradient-dark {
+    background: $dark;
+    background: linear-gradient(45deg, $info 0%, $dark 100%);
+}
+.bg-gradient-success {
+    background: $success;
+    background: linear-gradient(45deg, $success 0%, $primary 100%);
+}
+
+/* TEXT UTILITIES */
+.text-comic {
+    font-family:'Ka Blam' , sans-serif;
+    letter-spacing:0.25rem;  
+}
+
+.fancy-text-primary {
+    text-shadow: 0 0 0 $primary, 1px 1px 0 $primary, 2px 2px 0 $primary, 3px 3px 0 $primary, 4px 4px 0 $primary, 5px 5px 0 $primary, 6px 6px 0 $primary, 7px 7px 0 $primary, 8px 8px 0 $primary;
+}
+
+.fancy-text-secondary {
+    text-shadow: 0 0 0 $secondary, 1px 1px 0 $secondary, 2px 2px 0 $secondary, 3px 3px 0 $secondary, 4px 4px 0 $secondary, 5px 5px 0 $secondary, 6px 6px 0 $secondary, 7px 7px 0 $secondary, 8px 8px 0 $secondary;
+}
+
+.fancy-text-dark {
+    text-shadow: 0 0 0 $dark, 1px 1px 0 $dark, 2px 2px 0 $dark, 3px 3px 0 $dark, 4px 4px 0 $dark, 5px 5px 0 $dark, 6px 6px 0 $dark, 7px 7px 0 $dark, 8px 8px 0 $dark;
+}
+
+.fancy-text-light {
+    text-shadow: 0 0 0 $light, 1px 1px 0 $light, 2px 2px 0 $light, 3px 3px 0 $light, 4px 4px 0 $light, 5px 5px 0 $light, 6px 6px 0 $light, 7px 7px 0 $light, 8px 8px 0 $light;
+}
+
+
+/* SITE HEADER */
+
+.primary-nav{
+  position: relative;
+  box-shadow: 20px 0 20px rgba(0,0,0,0.25);
+}
+.primary-nav:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  height: 20px;
+  background-image: linear-gradient(45deg, transparent 75%, $white 75%), linear-gradient(-45deg, transparent 75%, $white 75%);
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.nav-utilities {
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:30px;
+    font-size:12px!important;
+    
+    svg {
+        fill: $secondary; 
+        cursor:pointer;
+    }
+}
+
+.nav-link,
+.btn {
+    transform: rotate(0);
+    transition:all 0.25s ease-in-out;
+}
+.nav-link:hover,
+.nav-link:focus,
+.btn:hover,
+.btn:focus {
+    transform: rotate(-5deg) scale(1.05);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color:$secondary !important;
+}
+
+#searchModal {
+  .dgwt-wcas-search-wrapp {
+    max-width:100%;
+  }
+}
+
+
+/* WOOCOMMERCE LOOP */
+.es-product {
+  a {
+    text-decoration:none;
+  }
+}
