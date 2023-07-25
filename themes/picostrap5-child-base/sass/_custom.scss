@@ -282,6 +282,10 @@ html, body {
     background-image:url(../images/blue-gradient.svg);
     background-repeat:repeat-x;
     padding-top:5rem!important;
+    
+    @media (max-width:991px) {
+      padding-top:3rem!important;
+    }
   }
   
   div.product div.images img {
