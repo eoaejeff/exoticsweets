@@ -66,6 +66,7 @@ function bbloomer_wc_output_long_description() {
 	   <div class="col-lg-6 ms-auto mb-5 order-lg-2">
 		  <h2 class="fw-bold mb-4 bg-light p-4">Description</h2>
 			  <?php the_content(); ?>
+			  <?php do_action('entro_after_product_description'); ?>
 	  </div>
 	   <div class="col-lg-6 mb-5 order-lg-1">
 		   <div class="h-100 bg-light p-4">
@@ -155,3 +156,7 @@ add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_add_to_cart_but
 function woocommerce_add_to_cart_button_text_archives() {
 	return __( 'Add to Box', 'woocommerce' );
 }
+
+// MOVE PRODUCT META DATA
+remove_action('woocommerce_single_product_summary' , 'woocommerce_template_single_meta' , 40);
+add_action('entro_after_product_description' , 'woocommerce_template_single_meta' , 10);
