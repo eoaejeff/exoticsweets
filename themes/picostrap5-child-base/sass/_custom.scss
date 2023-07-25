@@ -45,14 +45,22 @@ IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
 //3. Open the Customizer and declare the font in the "Font Family Base" / "Headings Font Family" field
 
 //include custom font
-//@font-face {
-//  font-family: 'Playfair Display';
-//  src: url('../fonts/playfair-display.woff2') format('woff2');
-//}
- 
+
+@font-face {
+  font-family: 'Ka Blam';
+  font-weight: 400;
+  src: url('../fonts/Ka-Blam.ttf') format('truetype');
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  overflow-x:hidden;
+  max-width:100%;
+  height:100%;
 }
 
 /* BUTTON STYLE OVERRIDES */
@@ -111,12 +119,13 @@ IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
     text-shadow: 0 0 0 $light, 1px 1px 0 $light, 2px 2px 0 $light, 3px 3px 0 $light, 4px 4px 0 $light, 5px 5px 0 $light, 6px 6px 0 $light, 7px 7px 0 $light, 8px 8px 0 $light;
 }
 
-
+/**********************************/
 /* SITE HEADER */
+/**********************************/
 
 .primary-nav{
   position: relative;
-  box-shadow: 20px 0 20px rgba(0,0,0,0.25);
+ /* box-shadow: 20px 0 20px rgba(0,0,0,0.25);*/
 }
 .primary-nav:after {
   content: "";
@@ -142,6 +151,7 @@ IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
     }
 }
 
+/*
 .nav-link,
 .btn {
     transform: rotate(0);
@@ -152,7 +162,7 @@ IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
 .btn:hover,
 .btn:focus {
     transform: rotate(-5deg) scale(1.05);
-}
+}*/
 
 .nav-link:hover,
 .nav-link:focus {
@@ -165,10 +175,214 @@ IMPORTANT NOTE REGARDING REFERENCING ELEMENTS IN THE THEME FOLDER
   }
 }
 
+/* WOOCOMMERCE GLOBAL */
+.woocommerce {
+  
+  /* Remove arrows from number input */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .quantity {
+    display:flex;
+    margin-right:0.5rem!important;
+    
+    button {
+      width:50px;
+      background:$white;
+      border:1px solid $secondary;
+      color:$secondary;
+      font-weight:bold;
+      
+      &.minus {
+        border-radius: 50px 0px 0 50px;
+      }
+      &.plus {
+        border-radius: 0 50px 50px 0;
+      }
+    }
+    
+    input {
+      border:1px solid $pink;
+      background:$secondary;
+      color:$white;
+      font-weight:bold;
+    }
+  }
+  
+}
+
+
+/**********************************/
+/* WOOCOMMERCE */
+/**********************************/
+
 
 /* WOOCOMMERCE LOOP */
+.archive .products {
+  margin-left:-0.75em!important;
+  margin-right:-0.75em!important;
+}
 .es-product {
   a {
     text-decoration:none;
   }
+  
+  .product-img-wrap {
+    background:rgba($light , 0.35);
+    
+    img {
+      mix-blend-mode:darken;
+    }
+  }
+  
+  span.onsale {
+    background-color:$primary;
+    top:0.5em;
+    right:0.5em;
+    left:auto;
+    border-radius:0;
+    min-height:unset;
+    line-height:2;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:0 0.75em;
+    box-shadow: 2.55px 2.55px 5px rgba(0,0,0,0.15);
+  }
+}
+
+// WOOCOMMERCE ARCHIVE PAGES
+#woo-archive-header {
+  background-image:url(../images/blue-gradient.svg);
+  background-repeat:repeat-x;
+}
+
+.woocommerce-products-header__title {
+  font-family:'Ka Blam';
+  text-transform:uppercase;
+}
+
+.pushpin {
+  width: 80px;
+  position: absolute;
+  top: -15px;
+  right: 45%;
+  left: auto;
+}
+
+// WOOCOMMERCE SINGLE PRODUCT
+.single-product {
+
+  #woocommerce-wrapper {
+    background-image:url(../images/blue-gradient.svg);
+    background-repeat:repeat-x;
+    padding-top:5rem!important;
+  }
+  
+  div.product div.images img {
+    mix-blend-mode: multiply;
+  }
+  
+  .product_title {
+    font-weight:bolder;
+    margin-bottom:2rem!important;
+  }
+  
+  /*.woocommerce-product-gallery {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-top:10px solid $secondary;
+  }*/
+  
+  .woocommerce-breadcrumb {
+      color:$dark;
+      font-weight:bold;
+      
+      a {
+        color:$dark;
+      }
+  }
+  
+  .entry-summary {
+    
+    p.price, 
+    span.price {
+      color:$dark!important;
+      font-size:2rem!important;
+      line-height:1;
+      margin-right:1rem;
+      
+      ins {
+        text-decoration:none!important;
+      }
+    }
+    
+    .stock {
+      background:$success;
+      color:$dark!important;
+      padding:0.25rem 0.5rem;
+      padding: 0.25rem 0.5rem;
+      display: inline-block;
+      font-size:12px!important;
+      border-radius:2.5px;
+    }
+    
+  }
+  
+  .quantity {
+    
+    button,
+    input {
+      font-size:20px!important;
+    }
+  }
+  
+  a.button.alt,
+  button.button.alt,
+  input.button.alt {
+    background-color:$secondary !important;
+    border-color:$secondary !important;
+    color:$white !important;
+    font-weight:bold !important;
+    text-transform:uppercase;
+    font-size:20px;
+  }
+  
+  .price-stock-wrap {
+    margin-bottom:2rem;
+    
+    p {
+      margin-bottom:0;
+    }
+  }
+  
+  .woocommerce-product-details__short-description {
+    margin-bottom:2rem;
+    
+    ul {
+      padding-left:1rem;
+    }
+  }
+  
+  .product_meta {
+    padding:1rem 0;
+    border-top:1px solid rgba($primary , 0.25);
+    border-bottom:1px solid rgba($primary , 0.25);
+  }
+  
+}
+
+
+.woocommerce div.product p.stock:nth-of-type(1) {
+  display:none!important;
+}
+
+
+
+.woocommerce-breadcrumb .breadcrumb-last:last-child{
+    display:none;
 }

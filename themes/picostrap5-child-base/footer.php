@@ -20,75 +20,65 @@
 		
 		
 		<div class="wrapper py-5 bg-gradient-secondary text-white" id="wrapper-footer-colophon">
-			<div class="container-fluid">
+
+			<footer class="site-footer" id="colophon">
+
+				<div class="site-info">
+
+					<div class="container">
+						
+						<?php //picostrap_site_info(); ?>
+						
+						<div class="row row-cols-2 row-cols-lg-4 gy-5">
+							
+							<div class="col">
+								<p class="fw-bolder">Test Heading</p>
+								<ul class="list-unstyled m-0 p-0">
+									<li>Privacy Policy</li>
+									<li>Shipping Policy</li>
+									<li>Return Policy</li>
+									<li>Terms & Conditions</li>
+								</ul>
+							</div>
+							
+							<div class="col">
+								<p class="fw-bolder">Test Heading</p>
+								<ul class="list-unstyled m-0 p-0">
+									<li>Privacy Policy</li>
+									<li>Shipping Policy</li>
+									<li>Return Policy</li>
+									<li>Terms & Conditions</li>
+								</ul>
+							</div>
+							
+							<div class="col">
+								<p class="fw-bolder">Test Heading</p>
+								<ul class="list-unstyled m-0 p-0">
+									<li>Privacy Policy</li>
+									<li>Shipping Policy</li>
+									<li>Return Policy</li>
+									<li>Terms & Conditions</li>
+								</ul>
+							</div>
+							
+							<div class="col">
+								<p class="fw-bolder">Test Heading</p>
+								<ul class="list-unstyled m-0 p-0">
+									<li>Privacy Policy</li>
+									<li>Shipping Policy</li>
+									<li>Return Policy</li>
+									<li>Terms & Conditions</li>
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+
+				</div><!-- .site-info -->
+
+			</footer><!-- #colophon -->
 		
-				<div class="row">
-		
-					<div class="col">
-		
-						<footer class="site-footer" id="colophon">
-		
-							<div class="site-info">
-		
-								<?php picostrap_site_info(); ?>
-								
-								<div class="container">
-									
-									<div class="row row-cols-2 row-cols-lg-4 gy-5">
-										
-										<div class="col">
-											<p class="fw-bolder">Test Heading</p>
-											<ul class="list-unstyled m-0 p-0">
-												<li>Privacy Policy</li>
-												<li>Shipping Policy</li>
-												<li>Return Policy</li>
-												<li>Terms & Conditions</li>
-											</ul>
-										</div>
-										
-										<div class="col">
-											<p class="fw-bolder">Test Heading</p>
-											<ul class="list-unstyled m-0 p-0">
-												<li>Privacy Policy</li>
-												<li>Shipping Policy</li>
-												<li>Return Policy</li>
-												<li>Terms & Conditions</li>
-											</ul>
-										</div>
-										
-										<div class="col">
-											<p class="fw-bolder">Test Heading</p>
-											<ul class="list-unstyled m-0 p-0">
-												<li>Privacy Policy</li>
-												<li>Shipping Policy</li>
-												<li>Return Policy</li>
-												<li>Terms & Conditions</li>
-											</ul>
-										</div>
-										
-										<div class="col">
-											<p class="fw-bolder">Test Heading</p>
-											<ul class="list-unstyled m-0 p-0">
-												<li>Privacy Policy</li>
-												<li>Shipping Policy</li>
-												<li>Return Policy</li>
-												<li>Terms & Conditions</li>
-											</ul>
-										</div>
-										
-									</div>
-									
-								</div>
-		
-							</div><!-- .site-info -->
-		
-						</footer><!-- #colophon -->
-		
-					</div><!--col end -->
-		
-				</div><!-- row end -->
-		
-			</div><!-- container end -->
 		
 		</div><!-- wrapper end -->
 		
