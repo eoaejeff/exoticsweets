@@ -49,7 +49,7 @@ function bbloomer_remove_product_tabs( $tabs ) {
 add_filter( 'woocommerce_product_related_products_heading', 'bbloomer_rename_related_products' );
  
 function bbloomer_rename_related_products() {
-   return "Customers Also Viewed...";
+   return "Customers Also Viewed";
 }
 
 

@@ -401,6 +401,22 @@ html, body {
     display:block;
   }
   
+  .button.alt {
+    display:flex;
+    align-items:center;
+  }
+  .button.alt:before {
+    content:'';
+    background-image:url('../images/white-box-icon.svg;');
+    display:block;
+    width:30px;
+    height:30px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    margin-right:0.5rem;
+  }
+  
 }
 
 .woocommerce div.product p.stock:nth-of-type(1) {
