@@ -47,7 +47,33 @@ function bbloomer_remove_product_tabs( $tabs ) {
 add_filter( 'woocommerce_product_related_products_heading', 'bbloomer_rename_related_products' );
  
 function bbloomer_rename_related_products() {
-   return "CUSTOMERS ALSO LIKED";
+   return "Customers Also Viewed...";
+}
+
+// MOVE PRODUCT DESCRIPTION
+remove_action('woocommerce_after_single_product_summary' , 'woocommerce_output_product_data_tabs' , 10);
+add_action('woocommerce_after_single_product_summary' , 'entro_clear_floats' , 10);
+
+function entro_clear_floats() {
+	echo '<div style="clear:both;"> </div>' ;
+}
+
+add_action( 'woocommerce_after_single_product_summary', 'bbloomer_wc_output_long_description', 10 );
+
+function bbloomer_wc_output_long_description() {
+?>
+   <div class="row">
+	   <div class="col-lg-6 ms-auto mb-5 order-lg-2">
+		  <h2 class="fw-bold mb-4 bg-light p-4">Description</h2>
+			  <?php the_content(); ?>
+	  </div>
+	   <div class="col-lg-6 mb-5 order-lg-1">
+		   <div class="h-100 bg-light p-4">
+			   <h2 class="fw-bold">Reviews</h2>
+		   </div>
+	   </div>
+   </div>
+<?php
 }
 
 
@@ -115,7 +141,6 @@ function bbloomer_update_price_with_variation_price() {
 	  });
    " );
 }
-
 
 
 
