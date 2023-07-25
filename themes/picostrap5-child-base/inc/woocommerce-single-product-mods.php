@@ -174,3 +174,59 @@ function entro_add_product_origin() {
 	</div>
 	<?php
 }
+
+
+
+// ESTIMATE SHIPPING
+
+function estimated_ship_before_add_to_cart_btn() { 	
+?>
+<div class="rfs-8 d-flex align-items-center product-ship-notice">
+	<div class="go-exp-shipping-estimate text-uppercase"></div>
+	<a class="npa-sft-link ms-2 rfs-5 link-secondary" href="/shipping-policy/" target="_blank">terms Apply</a>
+</div>
+<script>
+const npaSftHtml = document.createElement('div');
+npaSftHtml.classList.add('npa-shipping-timer-section')
+function gop2ExpElement() {
+	if (document.querySelectorAll('.product_meta').length > 0) { 
+		function convertTZ(date, tzString) {
+			return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", {
+				timeZone: tzString
+			}));
+		}
+		const goExpDate = new Date()
+		const goExpConvertedDate = convertTZ(goExpDate, 'America/New_York')
+		if (goExpConvertedDate.getDay() == "6" || goExpConvertedDate.getDay() == "0") {
+			window.goExpShippingMessage = "Order now! Ships on Monday"
+		} else if (goExpConvertedDate.getDay() == "5") {
+			if (goExpConvertedDate.getHours() < 14) {
+				window.goExpShippingMessage = "Order now - Ships Today!"
+			} else {
+				window.goExpShippingMessage = "Order now! Ships on Monday"
+			}
+		} else {
+			if (goExpConvertedDate.getHours() < 14) {
+				window.goExpShippingMessage = "Order now - Ships Today!"
+			} else {
+				window.goExpShippingMessage = "Order now! Ships Tomorrow"
+			}
+		} 
+document.querySelectorAll('.go-exp-shipping-estimate')[0].innerHTML = `
+<div style='font-weight:900'>` + window.goExpShippingMessage + `</div>
+`
+		if (~~document.querySelectorAll('.product_title.entry-title + .price .woocommerce-Price-amount bdi')[0].innerText.split('$')[1].split('.')[0] > 49) {
+			document.querySelectorAll('.go-exp-free-shipping')[0].style.display = 'none';
+		}
+	} else {
+		window.setTimeout(gop2ExpElement, 500)
+	}
+}
+gop2ExpElement();
+</script>
+	 
+	
+	<?php
+	
+}
+add_action( 'woocommerce_single_product_summary', 'estimated_ship_before_add_to_cart_btn' , 40 );

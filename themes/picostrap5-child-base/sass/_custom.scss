@@ -327,13 +327,21 @@ html, body {
     }
     
     .stock {
-      background:$success;
-      color:$dark!important;
+      
       padding:0.25rem 0.5rem;
       padding: 0.25rem 0.5rem;
       display: inline-block;
       font-size:12px!important;
-      border-radius:2.5px;
+      border-radius:2.5px; 
+      
+      &.in-stock {
+        background:$success;
+        color:$dark!important;
+      }
+      &.out-of-stock {
+        background:$danger;
+        color:$white!important;
+      }
     }
     
   }
@@ -435,4 +443,10 @@ html, body {
 
 .woocommerce-breadcrumb::-webkit-scrollbar {
   display: none;
+}
+
+.outofstock {
+  .product-ship-notice {
+    display:none!important;
+  }
 }
