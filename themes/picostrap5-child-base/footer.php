@@ -19,7 +19,7 @@
 		<?php endif ?>
 		
 		
-		<div class="wrapper py-5 bg-gradient-secondary text-white" id="wrapper-footer-colophon">
+		<div class="wrapper py-5 bg-dark text-white" id="wrapper-footer-colophon">
 
 			<footer class="site-footer" id="colophon">
 
