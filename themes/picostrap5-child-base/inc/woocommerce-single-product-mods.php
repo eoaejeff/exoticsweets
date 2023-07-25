@@ -43,7 +43,12 @@ function bbloomer_remove_product_tabs( $tabs ) {
 	return $tabs;
 }
 
-
+// CHANGE RELATED PRODUCTS TEXT
+add_filter( 'woocommerce_product_related_products_heading', 'bbloomer_rename_related_products' );
+ 
+function bbloomer_rename_related_products() {
+   return "CUSTOMERS ALSO LIKED";
+}
 
 
 // ADD PLUS MINUS BUTTONS

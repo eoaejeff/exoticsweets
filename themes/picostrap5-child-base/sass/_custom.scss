@@ -374,14 +374,29 @@ html, body {
     border-bottom:1px solid rgba($primary , 0.25);
   }
   
+  .related {
+    &.products {
+      border-top:5px dotted $secondary;
+      padding-top:2rem;
+      
+      h2 {
+        margin-bottom:2rem;
+        font-weight:bold;
+      }
+      
+      ul {
+        margin-left:-0.75rem;
+        margin-right:-0.75rem;
+      }
+      
+    }
+  }
+  
 }
-
 
 .woocommerce div.product p.stock:nth-of-type(1) {
   display:none!important;
 }
-
-
 
 .woocommerce-breadcrumb .breadcrumb-last:last-child{
     display:none;
