@@ -288,7 +288,8 @@ html, body {
     }
   }
   
-  div.product div.images img {
+  //div.product div.images img
+  .woocommerce-product-gallery__wrapper {
     mix-blend-mode: darken;
     background-color:#ffffff;
   }
