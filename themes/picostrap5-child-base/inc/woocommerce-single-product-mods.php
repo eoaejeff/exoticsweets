@@ -182,6 +182,7 @@ function entro_add_product_origin() {
 function estimated_ship_before_add_to_cart_btn() { 	
 ?>
 <div class="rfs-8 d-flex align-items-center product-ship-notice">
+	<div class="go-exp-free-shipping" style="display:none;color: #5DBAAE;">Free Shipping</div>
 	<div class="go-exp-shipping-estimate text-uppercase"></div>
 	<a class="npa-sft-link ms-2 rfs-5 link-secondary" href="/shipping-policy/" target="_blank">terms Apply</a>
 </div>
@@ -189,7 +190,7 @@ function estimated_ship_before_add_to_cart_btn() {
 const npaSftHtml = document.createElement('div');
 npaSftHtml.classList.add('npa-shipping-timer-section')
 function gop2ExpElement() {
-	if (document.querySelectorAll('.product_meta').length > 0) { 
+	if (document.querySelectorAll('.product-ship-notice').length > 0) { 
 		function convertTZ(date, tzString) {
 			return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", {
 				timeZone: tzString
@@ -215,9 +216,7 @@ function gop2ExpElement() {
 document.querySelectorAll('.go-exp-shipping-estimate')[0].innerHTML = `
 <div style='font-weight:900'>` + window.goExpShippingMessage + `</div>
 `
-		if (~~document.querySelectorAll('.product_title.entry-title + .price .woocommerce-Price-amount bdi')[0].innerText.split('$')[1].split('.')[0] > 49) {
-			document.querySelectorAll('.go-exp-free-shipping')[0].style.display = 'none';
-		}
+		
 	} else {
 		window.setTimeout(gop2ExpElement, 500)
 	}
