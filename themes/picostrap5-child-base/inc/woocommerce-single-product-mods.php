@@ -35,6 +35,7 @@ add_action("woocommerce_single_product_summary", function() {
 }, 14);
 
 
+
 // REMOVE ADDITIONAL PRODUCT INFO
 add_filter( 'woocommerce_product_tabs', 'bbloomer_remove_product_tabs', 9999 );
   
@@ -43,6 +44,7 @@ function bbloomer_remove_product_tabs( $tabs ) {
 	return $tabs;
 }
 
+
 // CHANGE RELATED PRODUCTS TEXT
 add_filter( 'woocommerce_product_related_products_heading', 'bbloomer_rename_related_products' );
  
@@ -50,16 +52,16 @@ function bbloomer_rename_related_products() {
    return "Customers Also Viewed...";
 }
 
-// MOVE PRODUCT DESCRIPTION
-remove_action('woocommerce_after_single_product_summary' , 'woocommerce_output_product_data_tabs' , 10);
-add_action('woocommerce_after_single_product_summary' , 'entro_clear_floats' , 10);
 
+// MOVE PRODUCT DESCRIPTION AND ADD WRAPPER FOR REVIEWS
+remove_action('woocommerce_after_single_product_summary' , 'woocommerce_output_product_data_tabs' , 10);
+
+add_action('woocommerce_after_single_product_summary' , 'entro_clear_floats' , 10);
 function entro_clear_floats() {
 	echo '<div style="clear:both;"> </div>' ;
 }
 
 add_action( 'woocommerce_after_single_product_summary', 'bbloomer_wc_output_long_description', 10 );
-
 function bbloomer_wc_output_long_description() {
 ?>
    <div class="row">
@@ -160,3 +162,15 @@ function woocommerce_add_to_cart_button_text_archives() {
 // MOVE PRODUCT META DATA
 remove_action('woocommerce_single_product_summary' , 'woocommerce_template_single_meta' , 40);
 add_action('entro_after_product_description' , 'woocommerce_template_single_meta' , 10);
+
+
+// ADD PRODUCT ORIGIN AFTER TITLE
+add_action ('woocommerce_single_product_summary' , 'entro_add_product_origin' , 19);
+function entro_add_product_origin() {
+	?>
+	<div class="product-origin d-flex align-items-center rfs-8 text-muted" style="margin-bottom:2rem;">
+		<img src="/wp-content/uploads/2023/06/thailand-icon.png" alt="thailand flag" style="width:35px;margin-right:0.5rem;">
+		From Thailand
+	</div>
+	<?php
+}
