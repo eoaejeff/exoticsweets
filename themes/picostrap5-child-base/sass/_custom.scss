@@ -289,7 +289,8 @@ html, body {
   }
   
   div.product div.images img {
-    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
+    background-color:#ffffff;
   }
   
   .product_title {
