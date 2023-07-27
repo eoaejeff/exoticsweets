@@ -330,8 +330,8 @@ ul.products {
   left: auto;
 }
 
-#woo-archive-header {
-  transform: rotate(0deg);
+#woo-archive-header .col {
+  transform: rotate(-1deg);
 }
 
 .woocommerce-pagination {
