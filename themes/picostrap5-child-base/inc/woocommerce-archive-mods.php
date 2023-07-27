@@ -11,7 +11,7 @@ function picostrap_archive_header_wrap_start() {
 		echo '<section class="py-5" id="woo-archive-header">';
 		echo '<div class="container">';
 		echo '<div class="row">';
-		echo '<div class="col col-md-10 mx-4 mx-md-auto p-5 mt-5 bg-white shadow border-top border-secondary border-5 position-relative" style="transform: rotate(-1.5deg);">';
+		echo '<div class="col col-md-10 mx-4 mx-md-auto p-4 p-lg-5 mt-5 bg-white shadow border-top border-secondary border-5 position-relative">';
 	} else {
 
 	}
