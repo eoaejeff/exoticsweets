@@ -42,7 +42,7 @@ if ( ! function_exists( 'picostrap_woocommerce_wrapper_start' ) ) {
 	function picostrap_woocommerce_wrapper_start() {
 		if ( ! is_product() ){
 			//$container = get_theme_mod( 'picostrap_container_type' );
-			echo '<section class="py-5" id="woocommerce-wrapper"> <!-- Added by child theme -->';
+			echo '<section class="py-5" id="woocommerce-wrapper">';
 			//echo '<div class="' . esc_attr( $container ) . '" id="content" tabindex="-1">';
 			echo '<div class="container overflow-hidden">';
 			echo '<div class="row">';
@@ -58,7 +58,7 @@ if ( ! function_exists( 'picostrap_woocommerce_single_wrapper_start' ) ) {
 	function picostrap_woocommerce_single_wrapper_start() {
 		if ( is_product() ){
 			//$container = get_theme_mod( 'picostrap_container_type' );
-			echo '<section class="py-5" id="woocommerce-wrapper"> <!-- Added by child theme -->';
+			echo '<section class="py-5" id="woocommerce-wrapper">';
 			//echo '<div class="' . esc_attr( $container ) . '" id="content" tabindex="-1">';
 			echo '<div class="container overflow-hidden">';
 			echo '<div class="row">';

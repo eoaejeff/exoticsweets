@@ -125,7 +125,7 @@ html, body {
 
 .primary-nav{
   position: relative;
- /* box-shadow: 20px 0 20px rgba(0,0,0,0.25);*/
+  box-shadow: 20px 0 20px rgba(0,0,0,0.25);
 }
 .primary-nav:after {
   content: "";
@@ -142,12 +142,17 @@ html, body {
 .nav-utilities {
     display:grid;
     grid-template-columns:auto auto;
-    grid-gap:30px;
+    grid-gap:10px;
     font-size:12px!important;
     
     svg {
         fill: $secondary; 
         cursor:pointer;
+    }
+    
+    a {
+      width:48px;
+      height:48px;
     }
 }
 
@@ -224,11 +229,19 @@ html, body {
 
 
 /* WOOCOMMERCE LOOP */
-.archive .products {
+
+ul.products {
+  border-top:1px solid #ededed;
+  border-bottom:0;
+}
+/*.archive .products {
   margin-left:-0.75em!important;
   margin-right:-0.75em!important;
-}
+}*/
 .es-product {
+  box-shadow: 1px 0 #ededed, 0 1px #ededed;
+  border-left:1px solid #ededed;
+  padding:1rem;
   a {
     text-decoration:none;
   }
@@ -398,8 +411,8 @@ html, body {
       }
       
       ul {
-        margin-left:-0.75rem;
-        margin-right:-0.75rem;
+        //margin-left:-0.75rem;
+        //margin-right:-0.75rem;
       }
       
     }
