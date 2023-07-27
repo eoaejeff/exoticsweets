@@ -243,6 +243,10 @@ ul.products {
   border-left:1px solid #ededed;
   padding:1rem;
   
+  @media (max-width:768px) {
+    padding:0.75em;
+  }
+  
   a {
     text-decoration:none;
   }
@@ -253,6 +257,7 @@ ul.products {
     img {
       mix-blend-mode:darken;
     }
+    
   }
   
   span.onsale {
@@ -271,6 +276,7 @@ ul.products {
   
   .product-title {
     font-size:1.125rem;
+    line-height:1.25rem;
   }
   
   .price {
@@ -297,6 +303,7 @@ ul.products {
       background-position:center center;
       margin-right:0.5rem;
     }
+    
   }
   
   .added_to_cart.wc-forward {
@@ -361,6 +368,7 @@ ul.products {
   .product_title {
     font-weight:bolder;
     margin-bottom:2rem!important;
+    line-height:1.25rem;
   }
   
   /*.woocommerce-product-gallery {
