@@ -93,9 +93,9 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'es_product_after_woo_ima
 
 // Add wrapper to bottom of product loop card
 function es_product_before_price() {
-  echo '<div class="card-bottom mt-auto d-flex align-items-center justify-content-between border-start-0 border-end-0 border-bottom-0 border-top border-3 border-dark border-dotted pt-3">';
+  echo '<div class="card-bottom mt-auto d-flex flex-column align-items-start justify-content-between border-start-0 border-end-0">';
 }
-add_action( 'woocommerce_after_shop_loop_item', 'es_product_before_price', 7 );
+add_action( 'woocommerce_after_shop_loop_item', 'es_product_before_price', 6 );
 
 function es_product_after_price() {
   echo '</div>';
@@ -114,10 +114,10 @@ function woocommerce_template_loop_product_title() {
 
 
 // ADD PRODUCT ORIGIN AFTER TITLE
-add_action ('woocommerce_after_shop_loop_item' , 'entro_add_product_origin_loop' , 6);
+add_action ('woocommerce_after_shop_loop_item' , 'entro_add_product_origin_loop' , 7);
 function entro_add_product_origin_loop() {
   ?>
-  <p class="product-origin mt-auto d-flex align-items-center rfs-7 text-muted mb-3" >
+  <p class="product-origin d-flex align-items-center rfs-6 text-muted mb-3" >
     <img src="/wp-content/uploads/2023/06/thailand-icon.png" alt="thailand flag" style="width:25px;margin-right:0.5rem;">
     From Thailand
   </p>

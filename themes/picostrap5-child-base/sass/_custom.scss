@@ -242,6 +242,7 @@ ul.products {
   box-shadow: 1px 0 #ededed, 0 1px #ededed;
   border-left:1px solid #ededed;
   padding:1rem;
+  
   a {
     text-decoration:none;
   }
@@ -267,6 +268,40 @@ ul.products {
     padding:0 0.75em;
     box-shadow: 2.55px 2.55px 5px rgba(0,0,0,0.15);
   }
+  
+  .product-title {
+    font-size:1.125rem;
+  }
+  
+  .price {
+    margin-bottom:1em;
+  }
+  
+  .add_to_cart_button {
+    width:100%;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    
+    &:before {
+      content:'';
+      background-image:url('../images/white-box-icon.svg;');
+      display:block;
+      width:24px;
+      height:24px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      background-position:center center;
+      margin-right:0.5rem;
+    }
+  }
+  
+  .added_to_cart.wc-forward {
+    display:none;
+  }
 }
 
 // WOOCOMMERCE ARCHIVE PAGES
@@ -286,6 +321,23 @@ ul.products {
   top: -15px;
   right: 45%;
   left: auto;
+}
+
+.woocommerce-pagination {
+  margin-top:3rem;
+  
+  ul {
+    font-size:20px;
+    
+    li {
+      border-color:$primary;
+      
+      a, span {
+        padding:0.5em 0.75em !important;
+      }
+      
+    }
+  }
 }
 
 // WOOCOMMERCE SINGLE PRODUCT

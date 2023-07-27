@@ -19,7 +19,7 @@
 		<?php endif ?>
 		
 		
-		<div class="wrapper py-5 bg-dark text-white" id="wrapper-footer-colophon">
+		<div class="wrapper py-5 bg-white text-dark border-top" id="wrapper-footer-colophon">
 
 			<footer class="site-footer" id="colophon">
 
@@ -29,7 +29,7 @@
 						
 						<?php //picostrap_site_info(); ?>
 						
-						<div class="row row-cols-2 row-cols-lg-4 gy-5">
+						<div class="row row-cols-2 row-cols-lg-4 gy-5 py-5">
 							
 							<div class="col">
 								<p class="fw-bolder">Test Heading</p>
