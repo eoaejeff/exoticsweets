@@ -45,9 +45,6 @@ defined( 'ABSPATH' ) || exit;
 				<div class="container overflow-hidden">
 					<div class="row">
 						<div class="col-12 d-flex flex-row align-items-center justify-content-between">
-							<div class="mobile-menu-toggle d-lg-none">
-								MENU
-							</div>
 							
 							<div id="logo-tagline-wrap">
 							
@@ -87,6 +84,13 @@ defined( 'ABSPATH' ) || exit;
 									<?php
 									
 									?>
+								</div>
+								<div class="menu-toggle d-block d-lg-none">
+									<a href="#mobileMenuDrawer" data-bs-toggle="offcanvas" role="button" aria-controls="mobileMenuDrawer" class="menu-toggle-button">
+										<span></span>
+										<span></span>
+										<span></span>
+									</a>
 								</div>
 							</div>
 						</div>

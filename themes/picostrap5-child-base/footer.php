@@ -1,6 +1,8 @@
 </main>
 	
-	<?php get_template_part( 'template-parts/cart', 'drawer' ); ?>
+	<?php get_template_part( 'template-parts/offcanvas', 'cart-drawer' ); ?>
+	
+	<?php get_template_part( 'template-parts/offcanvas', 'mobile-menu' ); ?>
 	
 	
 	<?php if (function_exists("lc_custom_footer")) lc_custom_footer(); else {

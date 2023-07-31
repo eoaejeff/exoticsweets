@@ -142,9 +142,10 @@ html, body {
 
 .nav-utilities {
     display:grid;
-    grid-template-columns:auto auto;
+    grid-template-columns:auto auto auto auto;
     grid-gap:10px;
     font-size:12px!important;
+    align-items:center;
     
     svg {
         fill: $secondary; 
@@ -155,6 +156,35 @@ html, body {
       width:48px;
       height:48px;
     }
+}
+
+.menu-toggle {
+  
+  .menu-toggle-button {
+    display:block;
+    width:35px;
+    height:24px;
+    position:relative;
+    
+    span {
+      display:block;
+      position:absolute;
+      width:100%;
+      height:4px;
+      background:$primary-500;
+      &:nth-of-type(1) {
+        top:0;
+      }
+      
+      &:nth-of-type(2) {
+        top:10px
+      }
+      
+      &:nth-of-type(3) {
+        bottom: 0;
+      }
+    }
+  }
 }
 
 /*
@@ -346,7 +376,6 @@ ul.products {
   
   .wc-points-rewards-product-message {
     font-size:0.75rem;
-    display:none;
   }
   
   .price {
