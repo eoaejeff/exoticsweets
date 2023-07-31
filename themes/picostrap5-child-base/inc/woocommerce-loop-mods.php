@@ -123,3 +123,16 @@ function entro_add_product_origin_loop() {
   </p>
   <?php
 }
+
+
+// Move Quick View Button
+function move_barn2_button() {
+  return 14;
+}
+add_filter('wc_quick_view_pro_shop_loop_button_hook_priority','move_barn2_button' );
+
+// Remove Default Quick View Button Classes
+function remove_barn2_button_classes() {
+  return false;
+}
+add_filter('wc_quick_view_pro_use_default_button_classes','remove_barn2_button_classes' );
