@@ -1,0 +1,4 @@
+2023-07-27T11:53:46+00:00 CRITICAL Cannot redeclare entro_add_product_origin() (previously declared in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:111) in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 171
+
+2023-07-27T11:53:46+00:00 CRITICAL Cannot redeclare entro_add_product_origin() (previously declared in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:111) in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 171
+

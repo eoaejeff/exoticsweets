@@ -42,7 +42,7 @@ defined( 'ABSPATH' ) || exit;
 
 		  
 			<nav class="bg-white text-dark pt-1 primary-nav" aria-label="Main Navigation" >
-				<div class="container overflow-hidden">
+				<div class="container">
 					<div class="row">
 						<div class="col-12 d-flex flex-row align-items-center justify-content-between">
 							

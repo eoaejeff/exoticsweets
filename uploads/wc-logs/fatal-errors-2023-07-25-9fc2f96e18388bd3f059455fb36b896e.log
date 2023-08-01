@@ -1,0 +1,40 @@
+2023-07-25T12:59:20+00:00 CRITICAL syntax error, unexpected token "echo" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 50
+
+2023-07-25T12:59:21+00:00 CRITICAL syntax error, unexpected token "echo" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 50
+
+2023-07-25T12:59:21+00:00 CRITICAL syntax error, unexpected token "echo" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 50
+
+2023-07-25T14:53:05+00:00 CRITICAL syntax error, unexpected identifier "add_action" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 59
+
+2023-07-25T14:53:07+00:00 CRITICAL syntax error, unexpected identifier "add_action" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 59
+
+2023-07-25T14:53:08+00:00 CRITICAL syntax error, unexpected identifier "add_action" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-single-product-mods.php on line 59
+
+2023-07-25T14:56:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "entro_clear_floats" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(72): do_action('woocommerce_aft...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+
+2023-07-25T14:57:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "entro_clear_floats" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(72): do_action('woocommerce_aft...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+

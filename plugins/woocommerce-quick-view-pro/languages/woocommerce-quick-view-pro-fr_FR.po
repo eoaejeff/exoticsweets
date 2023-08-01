@@ -1,0 +1,522 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Quick View Pro\n"
+"POT-Creation-Date: 2020-11-16 17:43+0000\n"
+"PO-Revision-Date: 2020-11-16 17:44+0000\n"
+"Last-Translator: Andrew Keith <andy@barn2.com>\n"
+"Language-Team: @fred\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-quick-view-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Paramètres"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, php-format
+msgid "View %s documentation"
+msgstr "Afficher la documentation %s"
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Documentation"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:122
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Clé de licence activée avec succès."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+msgid "There was an error activating your license key."
+msgstr "Il y a eu une erreur d’activation de votre clé de licence."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+msgid "License key successfully deactivated."
+msgstr "Clé de licence désactivée avec succès."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Il y avait une erreur en désactivant votre clé de licence, s'il vous plaît "
+"réessayer."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+msgid "There's a problem with your license key."
+msgstr "Il y a un problème avec votre clé de licence."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+msgid "License key"
+msgstr "Clé de licence"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+"La clé de licence se trouve dans l'email de confirmation de votre commande."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+msgid "Activate"
+msgstr "Activer"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+msgid "License key deactivated."
+msgstr "Clé de licence désactivée."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:185
+msgid "An error has occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#: lib/Plugin/License/Plugin_License.php:93
+msgid "Your license key is active."
+msgstr "Votre clé de licence est active."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Veuillez saisir votre clé de licence."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "Votre clé de licence n'est pas valide."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, php-format
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr ""
+"Clé de licence invalide - s’il vous plaît vérifier votre e-mail de "
+"confirmation de commande ou %1$sAccount%2$s."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr "Cette licence est pour un produit groupé et ne peut pas être activée."
+
+#: lib/Plugin/License/Plugin_License.php:335
+msgid "Your license key is not valid for this plugin."
+msgstr "Votre clé de licence n’est pas valide pour ce plugin."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, php-format
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Votre clé de licence a atteint sa limite d’activation (%s)."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:30
+msgid "Read more"
+msgstr "Lire la suite"
+
+#. translators: support for RTL. 1: license limit error message, 2: a read more link
+#. translators: support for RTL. 1: expired license error message, 2: a renewal link
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:617
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+"Votre clé de licence n’est pas active. S’il vous plaît réactiver ou "
+"enregistrer les paramètres."
+
+#: lib/Plugin/License/Plugin_License.php:621
+msgid "Your license key expired has expired."
+msgstr "Votre clé de licence expirée a expiré."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/Rest/Base_Server.php:23
+#, php-format
+msgid "This function must be called on %s."
+msgstr "Cette fonction doit être appelée sur %s."
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:76
+msgid "Color"
+msgstr "Couleur"
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:86
+msgid "Size"
+msgstr "Dimensions"
+
+#: src/Admin/Settings_Page.php:49
+msgid "Quick view"
+msgstr "Aperçu rapide"
+
+#: src/Admin/Settings_Page.php:67 src/Admin/Settings_Page.php:108
+#: src/Button_Display.php:112
+msgid "Quick View"
+msgstr "Aperçu rapide"
+
+#: src/Admin/Settings_Page.php:70
+msgid "The following options control the WooCommerce Quick View Pro extension."
+msgstr ""
+"Les options suivantes contrôlent l’extension WooCommerce Quick View Pro."
+
+#: src/Admin/Settings_Page.php:72
+msgid "Documentation"
+msgstr "Documentation"
+
+#: src/Admin/Settings_Page.php:73
+msgid "Support"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:84
+msgid "Options"
+msgstr "Options"
+
+#: src/Admin/Settings_Page.php:89
+msgid "Shop display"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:92
+#, fuzzy
+#| msgid "Show Quick View button in shop"
+msgid "Show a Quick View button for each product"
+msgstr "Afficher le bouton affichage rapide dans la boutique"
+
+#: src/Admin/Settings_Page.php:99
+#, fuzzy
+#| msgid "Open Quick View by clicking on product name or image in shop"
+msgid "Open the Quick View by clicking the product name or image"
+msgstr ""
+"Ouvrir la vue rapide en cliquant sur le nom du produit ou l'image sur la "
+"boutique en ligne"
+
+#: src/Admin/Settings_Page.php:105
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: src/Admin/Settings_Page.php:112
+msgid "Button icon"
+msgstr "Icône du bouton"
+
+#: src/Admin/Settings_Page.php:115
+#, fuzzy
+#| msgid "Show button icon"
+msgid "Show the button icon"
+msgstr "Voir l’icone du bouton"
+
+#: src/Admin/Settings_Page.php:119
+#, fuzzy
+#| msgid "Quick View contents"
+msgid "Quick View content"
+msgstr "Contenu de la vue rapide"
+
+#: src/Admin/Settings_Page.php:123
+msgid "Image only"
+msgstr "Image seule"
+
+#: src/Admin/Settings_Page.php:124
+msgid "Product details only"
+msgstr "Détails du produit uniquement"
+
+#: src/Admin/Settings_Page.php:125
+msgid "Image and product details"
+msgstr "Image et détail du produit"
+
+#: src/Admin/Settings_Page.php:131
+msgid "Product details"
+msgstr "Détails du produit"
+
+#: src/Admin/Settings_Page.php:134
+msgid "Show reviews"
+msgstr "Afficher les avis"
+
+#: src/Admin/Settings_Page.php:142
+msgid "Show price"
+msgstr "Afficher le prix"
+
+#: src/Admin/Settings_Page.php:149
+msgid "Show short description"
+msgstr "Afficher la description courte"
+
+#: src/Admin/Settings_Page.php:156
+msgid "Show add to cart button"
+msgstr "Afficher bouton ajouter au panier"
+
+#: src/Admin/Settings_Page.php:163
+msgid "Show meta information"
+msgstr "Afficher les méta-informations"
+
+#: src/Admin/Settings_Page.php:170
+#, fuzzy
+#| msgid "Product details only"
+msgid "Show product details link"
+msgstr "Détails du produit uniquement"
+
+#: src/Admin/Settings_Page.php:175
+msgid "Product image"
+msgstr "Image du produit"
+
+#: src/Admin/Settings_Page.php:178
+#, fuzzy
+#| msgid "Enable zoom"
+msgid "Enable image zoom"
+msgstr "Autoriser le zoom"
+
+#: src/Admin/Settings_Page.php:186
+#, fuzzy
+#| msgid "Enable gallery thumbnails"
+msgid "Show gallery thumbnails"
+msgstr "Activer les vignettes de Galerie"
+
+#: src/Admin/Settings_Page.php:191
+msgid "Gallery thumbnail style"
+msgstr "Style de vignette de la Galerie"
+
+#: src/Admin/Settings_Page.php:195
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+#: src/Admin/Settings_Page.php:196
+msgid "Bullets"
+msgstr "Puces"
+
+#: src/Frontend_Scripts.php:63
+#, fuzzy
+#| msgid "There was an error adding this product to the cart."
+msgid "Sorry, there was an error opening a Quick View for this product."
+msgstr "Il y a eu une erreur en ajoutant ce produit au chariot."
+
+#: src/Frontend_Scripts.php:64 src/Rest/Add_To_Cart_Route.php:74
+msgid "There was an error adding this product to the cart."
+msgstr "Il y a eu une erreur en ajoutant ce produit au chariot."
+
+#. translators: %s: The settings page URL for WooCommerce Product Table.
+#: src/Integration/Product_Table_Integration.php:50
+#, php-format
+msgid ""
+"Excludes links inside product tables, which must be configured separately in "
+"your <a href=\"%s\">table settings</a>."
+msgstr ""
+
+#: src/Plugin.php:103
+#, php-format
+msgid ""
+"Please %1$sinstall WooCommerce%2$s in order to use WooCommerce Quick View "
+"Pro."
+msgstr ""
+
+#: src/Quick_View_Content.php:139
+#, fuzzy
+#| msgid "Product details"
+msgid "View product details"
+msgstr "Détails du produit"
+
+#: src/Rest/Add_To_Cart_Route.php:32
+msgid "The product ID to add to the cart."
+msgstr "L'ID du produit à ajouter au panier."
+
+#: src/Rest/Add_To_Cart_Route.php:106
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+"Veuillez choisir la quantité d&rsquo;articles que vous souhaitez ajouter à "
+"votre panier&hellip;"
+
+#. translators: %s: product name
+#: src/Rest/Add_To_Cart_Route.php:148
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&laquo;%s&raquo;"
+
+#. translators: %s: product name
+#: src/Rest/Add_To_Cart_Route.php:154
+#, php-format
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] "%s a été ajouté à votre panier."
+msgstr[1] "%s ont été ajouté à votre panier."
+
+#: src/Rest/Add_To_Cart_Route.php:162
+msgid "Continue shopping"
+msgstr "Continuer vos achats"
+
+#: src/Rest/Add_To_Cart_Route.php:176 src/Rest/Quick_View_Route.php:48
+msgid "The requested product does not exist."
+msgstr "Le produit demandé n'existe pas."
+
+#: src/Rest/Quick_View_Route.php:31
+msgid "The product ID to retrieve the quick view for."
+msgstr "ID de produit pour récupérer la vue rapide pour."
+
+#: src/Shortcode.php:43
+msgid "Product ID not specified."
+msgstr ""
+
+#: src/Shortcode.php:49
+#, fuzzy
+#| msgid "Product details only"
+msgid "Product not found."
+msgstr "Détails du produit uniquement"
+
+#: templates/product-hidden-content.php:16
+#, fuzzy
+#| msgid "Sorry, this product cannot be displayed."
+msgid "Sorry, this product is not available for purchase."
+msgstr "Désolé, ce produit ne peut pas être affiché."
+
+#: templates/product-image.php:40
+msgid "Awaiting product image"
+msgstr "En attente de l’image du produit"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Quick View Pro"
+msgstr "WooCommerce Quick View Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://barn2.com/wordpress-plugins/woocommerce-quick-view-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The best quick view plugin for WooCommerce."
+msgstr "Le meilleur plugin de vue rapide pour WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://barn2.com"
+msgstr "https://barn2.com"
+
+#~ msgid "Quick View display"
+#~ msgstr "Affichage de la vue rapide"
+
+#~ msgid "check theme support"
+#~ msgstr "vérifier le support du thème"
+
+#~ msgid "Decide what to display inside the Quick View modal."
+#~ msgstr ""
+#~ "Décidez de ce qu'il faut afficher à l'intérieur de la vue rapide modale."
+
+#~ msgid "The requested product cannot be added to the cart."
+#~ msgstr "Le produit demandé ne peut pas être ajouté au panier."
+
+#~ msgid "The requested product cannot be viewed."
+#~ msgstr "Le produit demandé ne peut pas être visualisé."
+
+#~ msgid "Get Help"
+#~ msgstr "Obtenir de l’aide"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. %2$sVoir les détails de "
+#~ "la version %3$s%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. %2$sVoir les détails de "
+#~ "la version %3$s%4$s ou %5$sfaire la mise à jour maintenant%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr ""
+#~ "Vous n’êtes pas autorisé à installer les mises à jour de l’extension"
+
+#~ msgid "Error"
+#~ msgstr "Erreur"
+
+#~ msgid "Your license key has been disabled."
+#~ msgstr "Votre clé de licence a été désactivée."
+
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr ""
+#~ "Clé de licence désactivée avec succès. Cliquez sur Enregistrer pour "
+#~ "réactiver."
+
+#~ msgid "Barn2 Media"
+#~ msgstr "Barn2 Media"

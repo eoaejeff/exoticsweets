@@ -1,0 +1,507 @@
+# Copyright (C) 2023 iconic-woo-quickview
+# This file is distributed under the same license as the iconic-woo-quickview package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iconic-woo-quickview\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-24 09:30+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: iconic-woo-quickview.php:295, iconic-woo-quickview.php:698
+msgid "Adding to Cart..."
+msgstr ""
+
+#: iconic-woo-quickview.php:643
+msgid "Sorry, something went wrong. Please try again."
+msgstr ""
+
+#: iconic-woo-quickview.php:640
+msgid "Sorry, that item can only be added once."
+msgstr ""
+
+#: iconic-woo-quickview.php:697
+msgid "Added!"
+msgstr ""
+
+#: iconic-woo-quickview.php:699
+msgid "Loading..."
+msgstr ""
+
+#: inc/class-core-licence.php:296
+msgid "Back to Settings"
+msgstr ""
+
+#: inc/class-core-licence.php:322
+msgid "Changelog"
+msgstr ""
+
+#: inc/class-core-licence.php:333
+msgid "Manage Licence &amp; Billing"
+msgstr ""
+
+#: inc/class-core-onboard.php:60, inc/class-core-onboard.php:69
+msgid "Get Started"
+msgstr ""
+
+#: inc/class-core-onboard.php:75
+msgid "Steps"
+msgstr ""
+
+#: inc/class-core-onboard.php:521
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/class-core-onboard.php:522
+msgid "Are you sure you want to dismiss the Get Started tab? You won't be able to access it again."
+msgstr ""
+
+#: inc/class-core-onboard.php:524
+msgid "Yes"
+msgstr ""
+
+#: inc/class-core-onboard.php:525
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-core-onboard.php:601
+msgid "Priority Support"
+msgstr ""
+
+#: inc/class-core-onboard.php:602
+msgid "Help is at hand if you face any issues."
+msgstr ""
+
+#: inc/class-core-onboard.php:605
+msgid "Get Help"
+msgstr ""
+
+#: inc/class-core-settings.php:325
+msgid "Getting Started"
+msgstr ""
+
+#: inc/class-core-settings.php:369
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-core-settings.php:376
+msgid "License &amp; Account Settings"
+msgstr ""
+
+#: inc/class-core-settings.php:382
+msgid "License &amp; Billing"
+msgstr ""
+
+#: inc/class-core-settings.php:383
+msgid "Activate or sync your license, cancel your subscription, print invoices, and manage your account information."
+msgstr ""
+
+#: inc/class-core-settings.php:389
+msgid "Your Account"
+msgstr ""
+
+#: inc/class-core-settings.php:390
+msgid "Manage all of your Iconic plugins, supscriptions, renewals, and more."
+msgstr ""
+
+#: inc/class-core-settings.php:401, inc/class-core-settings.php:407
+msgid "Support"
+msgstr ""
+
+#: inc/class-core-settings.php:408
+msgid "Get premium support with a valid license."
+msgstr ""
+
+#: inc/class-core-settings.php:414
+msgid "Documentation"
+msgstr ""
+
+#: inc/class-core-settings.php:415
+msgid "Read the plugin documentation."
+msgstr ""
+
+#: inc/class-core-settings.php:790
+msgid "Works well with..."
+msgstr ""
+
+#: inc/class-core-settings.php:804
+msgid "Buy Plugin"
+msgstr ""
+
+#: inc/class-core-settings.php:807
+msgid "30 Day Money-Back Guarantee"
+msgstr ""
+
+#: inc/class-core-settings.php:832
+msgid "Submit Ticket"
+msgstr ""
+
+#: inc/class-core-settings.php:841
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/class-core-settings.php:850
+msgid "Manage Your Account"
+msgstr ""
+
+#: inc/class-core-settings.php:887
+msgid "View settings"
+msgstr ""
+
+#: inc/class-core-settings.php:887
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/settings.php:22
+msgid "Quickview Trigger Settings"
+msgstr ""
+
+#: inc/admin/settings.php:27
+msgid "Popup Settings"
+msgstr ""
+
+#: inc/admin/settings.php:41
+msgid "Quickview Method"
+msgstr ""
+
+#: inc/admin/settings.php:47
+msgid "Hover Quickview Button"
+msgstr ""
+
+#: inc/admin/settings.php:48
+msgid "Click Quickview Button"
+msgstr ""
+
+#: inc/admin/settings.php:53
+msgid "Quickview Tag"
+msgstr ""
+
+#: inc/admin/settings.php:75
+msgid "Automatically insert Button?"
+msgstr ""
+
+#: inc/admin/settings.php:76
+msgid "Would you like Quickview to attempt to automatically insert the Quickview button?<br><br> For alternative insertion options, please see <a href=\"http://docs.iconicwp.com/article/45-manually-insert-the-quickview-button\" target=\"_blank\">the documentation</a>."
+msgstr ""
+
+#: inc/admin/settings.php:83
+msgid "Button Position"
+msgstr ""
+
+#: inc/admin/settings.php:84
+msgid "If you chose to automatically insert the button, where should it be displayed?"
+msgstr ""
+
+#: inc/admin/settings.php:89
+msgid "Before Item"
+msgstr ""
+
+#: inc/admin/settings.php:90
+msgid "Before Title"
+msgstr ""
+
+#: inc/admin/settings.php:91
+msgid "After Title"
+msgstr ""
+
+#: inc/admin/settings.php:92
+msgid "After Item"
+msgstr ""
+
+#: inc/admin/settings.php:97
+msgid "Button Align"
+msgstr ""
+
+#: inc/admin/settings.php:102
+msgid "Left"
+msgstr ""
+
+#: inc/admin/settings.php:103
+msgid "Centre"
+msgstr ""
+
+#: inc/admin/settings.php:104
+msgid "Right"
+msgstr ""
+
+#: inc/admin/settings.php:105, inc/admin/settings.php:175, inc/admin/settings.php:339
+msgid "None"
+msgstr ""
+
+#: inc/admin/settings.php:110
+msgid "Margins"
+msgstr ""
+
+#: inc/admin/settings.php:112
+msgid "Enter a pixel value (positive/negative) to offset the quickview button."
+msgstr ""
+
+#: inc/admin/settings.php:133
+msgid "Auto-hide Button?"
+msgstr ""
+
+#: inc/admin/settings.php:134
+msgid "Should the quickview button only show when the product is hovered?"
+msgstr ""
+
+#: inc/admin/settings.php:141
+msgid "Button Parent"
+msgstr ""
+
+#: inc/admin/settings.php:143
+msgid "If the button is set to autohide, enter a parent class, id, or element that should display the quickview button when hovered."
+msgstr ""
+
+#: inc/admin/settings.php:144
+msgid ".product"
+msgstr ""
+
+#: inc/admin/settings.php:149
+msgid "Icon"
+msgstr ""
+
+#: inc/admin/settings.php:150
+msgid "Choose the Icon to use on the Quickview button"
+msgstr ""
+
+#: inc/admin/settings.php:155
+msgid "No Icon"
+msgstr ""
+
+#: inc/admin/settings.php:156
+msgid "Magnifier"
+msgstr ""
+
+#: inc/admin/settings.php:157
+msgid "Eye"
+msgstr ""
+
+#: inc/admin/settings.php:158
+msgid "Plus Symbol"
+msgstr ""
+
+#: inc/admin/settings.php:163
+msgid "Quickview Text"
+msgstr ""
+
+#: inc/admin/settings.php:165
+msgid "Quickview"
+msgstr ""
+
+#: inc/admin/settings.php:170
+msgid "Button Style"
+msgstr ""
+
+#: inc/admin/settings.php:176
+msgid "Border"
+msgstr ""
+
+#: inc/admin/settings.php:177
+msgid "Flat"
+msgstr ""
+
+#: inc/admin/settings.php:182
+msgid "Padding"
+msgstr ""
+
+#: inc/admin/settings.php:184
+msgid "Enter a pixel value (positive/negative) to pad the quickview button."
+msgstr ""
+
+#: inc/admin/settings.php:195, inc/admin/settings.php:441
+msgid "Button Colour"
+msgstr ""
+
+#: inc/admin/settings.php:196
+msgid "If your button is \"Flat\" style, this is the background colour. If it's \"Border\" style, this is the border colour."
+msgstr ""
+
+#: inc/admin/settings.php:203, inc/admin/settings.php:448
+msgid "Button Hover Colour"
+msgstr ""
+
+#: inc/admin/settings.php:204
+msgid "If your button is \"Flat\" style, this is the background colour on hover. If it's \"Border\" style, this is the border colour on hover."
+msgstr ""
+
+#: inc/admin/settings.php:211, inc/admin/settings.php:455
+msgid "Button Text Colour"
+msgstr ""
+
+#: inc/admin/settings.php:218, inc/admin/settings.php:462
+msgid "Button Text Hover Colour"
+msgstr ""
+
+#: inc/admin/settings.php:225
+msgid "Border Radius"
+msgstr ""
+
+#: inc/admin/settings.php:227
+msgid "Enter a border radius in pixels."
+msgstr ""
+
+#: inc/admin/settings.php:248
+msgid "Enable Gallery?"
+msgstr ""
+
+#: inc/admin/settings.php:249
+msgid "Should the popup allow you to navigate between the other products on the page?"
+msgstr ""
+
+#: inc/admin/settings.php:256
+msgid "Overlay Colour"
+msgstr ""
+
+#: inc/admin/settings.php:263
+msgid "Overlay Opacity"
+msgstr ""
+
+#: inc/admin/settings.php:265
+msgid "Enter a value where 0 = transparent, and 1 = opaque."
+msgstr ""
+
+#: inc/admin/settings.php:281
+msgid "Image Transition"
+msgstr ""
+
+#: inc/admin/settings.php:286
+msgid "Horizontal Slide"
+msgstr ""
+
+#: inc/admin/settings.php:287
+msgid "Fade"
+msgstr ""
+
+#: inc/admin/settings.php:292
+msgid "Transition Speed"
+msgstr ""
+
+#: inc/admin/settings.php:294
+msgid "The speed in milliseconds at which the image gallery transition occurs."
+msgstr ""
+
+#: inc/admin/settings.php:300
+msgid "Autoplay?"
+msgstr ""
+
+#: inc/admin/settings.php:301
+msgid "Automatically scroll through the product imagery?"
+msgstr ""
+
+#: inc/admin/settings.php:308
+msgid "Autoplay Speed"
+msgstr ""
+
+#: inc/admin/settings.php:310
+msgid "The duration in milliseconds that each image is displayed."
+msgstr ""
+
+#: inc/admin/settings.php:316
+msgid "Infinite Scroll?"
+msgstr ""
+
+#: inc/admin/settings.php:317
+msgid "Infnitely scroll through the product imagery?"
+msgstr ""
+
+#: inc/admin/settings.php:324
+msgid "Show Navigation Arrows?"
+msgstr ""
+
+#: inc/admin/settings.php:325
+msgid "Show previous/next arrows on the image gallery?"
+msgstr ""
+
+#: inc/admin/settings.php:332
+msgid "Thumbnail type"
+msgstr ""
+
+#: inc/admin/settings.php:337
+msgid "Sliding Thumbnails"
+msgstr ""
+
+#: inc/admin/settings.php:338
+msgid "Bullets"
+msgstr ""
+
+#: inc/admin/settings.php:354
+msgid "Show Title?"
+msgstr ""
+
+#: inc/admin/settings.php:361
+msgid "Show Price?"
+msgstr ""
+
+#: inc/admin/settings.php:368
+msgid "Show Rating?"
+msgstr ""
+
+#: inc/admin/settings.php:375
+msgid "Show Banner?"
+msgstr ""
+
+#: inc/admin/settings.php:376
+msgid "E.g: \"Sale!\""
+msgstr ""
+
+#: inc/admin/settings.php:383
+msgid "Show Description?"
+msgstr ""
+
+#: inc/admin/settings.php:388
+msgid "No"
+msgstr ""
+
+#: inc/admin/settings.php:389
+msgid "Full"
+msgstr ""
+
+#: inc/admin/settings.php:390
+msgid "Short"
+msgstr ""
+
+#: inc/admin/settings.php:395
+msgid "Show Product Options / Add to Cart?"
+msgstr ""
+
+#: inc/admin/settings.php:402
+msgid "Enable AJAX Add to Cart?"
+msgstr ""
+
+#: inc/admin/settings.php:403
+msgid "Add products to cart from the quickview without reloading the page."
+msgstr ""
+
+#: inc/admin/settings.php:410
+msgid "Hide Popup After Add to Cart?"
+msgstr ""
+
+#: inc/admin/settings.php:411
+msgid "Once a product has been added to the cart via ajax, hide the modal popup.."
+msgstr ""
+
+#: inc/admin/settings.php:418
+msgid "Show Qty Field?"
+msgstr ""
+
+#: inc/admin/settings.php:425
+msgid "Show Product Meta?"
+msgstr ""
+
+#: inc/admin/settings.php:426
+msgid "E.g: Categories, Tags, etc."
+msgstr ""
+
+#: inc/admin/settings.php:433
+msgid "Try to use your Theme's Button Styling?"
+msgstr ""
+
+#: inc/admin/settings.php:434
+msgid "Check this if you'd like to attempt to use the button styling from your theme. If this fails, use the styling tools below, or add your own CSS."
+msgstr ""

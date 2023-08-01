@@ -1,0 +1,831 @@
+2023-07-20T19:57:05+00:00 CRITICAL syntax error, unexpected variable "$classes" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 7
+
+2023-07-20T19:57:06+00:00 CRITICAL syntax error, unexpected variable "$classes" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 7
+
+2023-07-20T19:57:06+00:00 CRITICAL syntax error, unexpected variable "$classes" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 7
+
+2023-07-20T19:57:43+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T19:57:49+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:01:38+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T20:01:39+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T20:01:39+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T20:03:56+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:03:57+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:04:07+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:04:45+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:7
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(7): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_post_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 7
+
+2023-07-20T20:06:30+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:06:54+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:06:56+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:07:41+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:07:42+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:08:27+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php:18
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php(18): array_diff(NULL, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): filter_woocommerce_single_class(NULL, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#12 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 18
+
+2023-07-20T20:08:43+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:08:45+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:08:52+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:12:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "filter_woocommerce_post_class" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#10 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+
+2023-07-20T20:20:24+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:20:33+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:20:34+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:21:37+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:21:38+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:28:15+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:31:38+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:31:40+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:31:55+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:32:00+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:32:03+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:32:04+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:32:26+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:32:28+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:33:04+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:41:22+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:41:27+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:41:38+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:49:03+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:49:24+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:49:27+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T20:52:01+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:07:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "filter_woocommerce_post_class" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#10 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+
+2023-07-20T21:07:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "filter_woocommerce_post_class" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#10 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+
+2023-07-20T21:07:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "filter_woocommerce_post_class" not found or invalid function name in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(720): apply_filters('woocommerce_pos...', Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#10 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php on line 308
+
+2023-07-20T21:09:53+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:10:23+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:10:25+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:10:34+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:10:35+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:10:57+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:11:21+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:11:23+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:11:24+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:11:24+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#11 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:11:51+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter('product')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:38:56+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:38:57+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:38:57+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:45:18+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-single-product.php(34): wc_product_class('', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T21:48:40+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:48:41+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:48:41+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 13
+
+2023-07-20T21:50:21+00:00 CRITICAL syntax error, unexpected token ";" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 33
+
+2023-07-20T21:50:21+00:00 CRITICAL syntax error, unexpected token ";" in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 33
+
+2023-07-20T22:06:36+00:00 CRITICAL Unclosed '{' on line 42 in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 94
+
+2023-07-20T22:06:36+00:00 CRITICAL Unclosed '{' on line 42 in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 94
+
+2023-07-20T22:06:54+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:722
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(722): array_filter(NULL)
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Simple))
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(27): wc_product_class('col es-product ...', Object(WC_Product_Simple))
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(71): wc_get_template_part('content', 'product')
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#9 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 722
+
+2023-07-20T22:07:04+00:00 CRITICAL Unclosed '{' on line 42 in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 99
+
+2023-07-20T22:07:04+00:00 CRITICAL Unclosed '{' on line 42 in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/inc/woocommerce-loop-mods.php on line 99
+

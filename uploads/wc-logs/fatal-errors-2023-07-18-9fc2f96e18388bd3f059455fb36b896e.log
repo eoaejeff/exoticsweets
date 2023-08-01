@@ -1,0 +1,111 @@
+2023-07-18T22:12:13+00:00 CRITICAL syntax error, unexpected token "." in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:12:13+00:00 CRITICAL syntax error, unexpected token "." in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:44+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jeffwall...')
+#4 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:45+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:45+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:46+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:46+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:50+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:51+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:52+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:13:52+00:00 CRITICAL Uncaught Error: Failed opening required '/Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5/inc/woocommerce-loop-mods.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php:73
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-settings.php(591): include()
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-config.php(91): require_once('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-load.php(50): require_once('/Users/jeffwall...')
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(13): require_once('/Users/jeffwall...')
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#5 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/functions.php on line 73
+
+2023-07-18T22:21:10+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 5 given in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/loop/add-to-cart.php:32
+Stack trace:
+#0 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/loop/add-to-cart.php(32): sprintf('<a href="%s" da...', '?add-to-cart=25...', '1', 'data-product_id...', 'Add to cart')
+#1 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/jeffwall...')
+#2 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1383): wc_get_template('loop/add-to-car...', Array)
+#3 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#4 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/content-product.php(65): do_action('woocommerce_aft...')
+#7 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template.php(785): require('/Users/jeffwall...')
+#8 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/jeffwall...', false)
+#9 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content', 'product')
+#10 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-includes/template-loader.php(106): include('/Users/jeffwall...')
+#11 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-blog-header.php(19): require_once('/Users/jeffwall...')
+#12 /Users/jeffwallace/Local Sites/exotic-sweets/app/public/index.php(17): require('/Users/jeffwall...')
+#13 {main}
+  thrown in /Users/jeffwallace/Local Sites/exotic-sweets/app/public/wp-content/themes/picostrap5-child-base/woocommerce/loop/add-to-cart.php on line 32
+

@@ -1,0 +1,65 @@
+/* ============ SOME USEFUL UTILITIES  ============ */
+
+//RFS UTILITY: generate classes for responsive font sizes: from rfs-1 to rfs-50
+@for $i from 1 through 50 {
+	.rfs-#{$i} { 
+		@include font-size($i * 0.15rem); 
+	}
+}
+ 
+//RWS UTILITY: generate classes for icon sizes: from rws-1 to rws-50  
+@for $j from 1 through 40 {
+	.rws-#{$j} {
+		width: rfs-fluid-value($j * 1.15rem);
+	}
+}
+
+//COLOR SHADES UTILITY:  generate classes for lighter and darker variations of your colors
+@import "theme_color_shades"; // eg:  .bg-primary-100  and  .text-primary-100 ... .text-primary-900
+
+//SCROLL TO ANCHORS WITH OFFSET (when using fixed header) 
+//as per https://css-tricks.com/fixed-headers-and-jump-links-the-solution-is-scroll-margin-top/
+//set to menubar height if customizing menubar
+body.picostrap_header_navbar_position_fixed-top section[id] {	scroll-margin-top: 63px;}
+
+
+/* ============ THEME TWEAKS  ============ */
+
+// WHEN HEADER NAVBAR IS FIXED TOP, unless it's transparent, MOVE CONTENT DOWN so it's not hidden by the menubar
+// You may want to remove/edit this row depending on your design and navbar height
+body.picostrap_header_navbar_position_fixed-top:not(.picostrap_header_navbar_color_choice_bg-transparent) {padding-top:58px}
+
+// WHEN HEADER NAVBAR IS FIXED TOP, Make WPADMINBAR SEE-THROUGH
+body.picostrap_header_navbar_position_fixed-top #wpadminbar {opacity:0.1}
+body.picostrap_header_navbar_position_fixed-top #wpadminbar:hover {opacity:1}
+
+// OPT-IN: WHEN TOP ADMIN BAR IS PRESENT, MOVE MENU AND SITE DOWN A BIT
+//body.admin-bar #wrapper-navbar nav {top:30px;}
+//body.admin-bar.picostrap_header_navbar_position_fixed-top {padding-top: 88px;}
+
+//HEADER: FIX SVG LOGO 
+.custom-logo-link img[src$='.svg'] {width:100%}
+
+//"BACK TO TOP" optional BUTTON (Enable from the Customizer)
+#backToTop {visibility: hidden;position:fixed;bottom:20px;right:20px;z-index:99999;opacity:0.6;padding: 3px 11px 7px;}
+#backToTop:hover {cursor: pointer}
+
+//PAGE HAS SCROLLED: SIMPLE OPT-IN DEMO 
+//From the Customizer, enable the "Scroll Detection" feature to be able to use the "scroll-position-at-top" / "body.scroll-position-not-at-top" classes 
+
+//body.scroll-position-at-top  {background:lime}
+//body.scroll-position-not-at-top {background:red}
+
+//PAGE HAS SCROLLED: ENLARGE NAVBAR when not scrolled yet
+body.scroll-position-at-top  #wrapper-navbar .navbar { 
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+body.scroll-position-not-at-top #wrapper-navbar .navbar,
+body.scroll-position-at-top #wrapper-navbar .navbar { 
+	transition: all .5s ease-out;
+}
+
+/* ============ BEFORE EDITING HERE: YOU MAY WANT TO USE THE STARTER CHILD THEME.  ============  */
+

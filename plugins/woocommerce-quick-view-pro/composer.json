@@ -1,0 +1,62 @@
+{
+    "name": "barn2/woocommerce-quick-view-pro",
+    "description": "WooCommerce Quick View Pro plugin for WordPress.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Barn2 Plugins",
+            "email": "support@barn2.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require-dev": {
+		"barn2/php-standards": "dev-master",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "bamarni/composer-bin-plugin": "dev-master",
+        "barn2/setup-wizard": "^1.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Barn2\\Plugin\\WC_Quick_View_Pro\\": "src",
+            "Barn2\\WQV_Lib\\": "lib",
+            "WPTRT\\AdminNotices\\": "lib/vendor/admin-notices/src"
+        },
+        "files": [
+            "src/deprecated.php",
+            "src/template-functions.php"
+        ],
+        "classmap": [
+            "dependencies/src"
+        ]    
+    },
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:barn2plugins/php-standards.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:barn2plugins/setup-wizard.git"
+        }
+	],
+	"scripts": {
+		"lint": "phpcs .",
+        "lint-fix": "phpcbf .",
+		"no-dev": "composer update --prefer-dist --no-dev",
+		"install-scoper": [
+		    "composer bin php-scoper config minimum-stability dev",
+		    "composer bin php-scoper config prefer-stable true",
+		    "composer bin php-scoper require --dev humbug/php-scoper"
+		],
+		"scoper": "vendor/bin/php-scoper add-prefix --config .scoper.inc.php --output-dir dependencies/"
+	},
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "bamarni/composer-bin-plugin": true
+        }
+    }
+}

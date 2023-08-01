@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<admin-texts>
+		<key name="wc_quick_view_pro_settings">
+			<key name="button_text" />
+		</key>
+	</admin-texts>
+</wpml-config>
